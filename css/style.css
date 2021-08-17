@@ -1,0 +1,56 @@
+
+*
+{
+	background-image: url('../image/cab_img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	box-sizing: border-box;
+}
+.align
+{
+	text-align: right;
+    font-weight: bolder;
+    font-size: 22px;
+    color:blue;
+    margin-left:155px;
+    padding: 10px;
+    font-family: century;
+    position: absolute;
+
+}
+.logo
+{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: Times New Roman;
+    position: relative;
+}
+.centered {
+ position: relative;
+  top: 150px;
+  left:20%;
+
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: algerian;
+  color:#6dc9b7;
+
+}
+#demo
+{
+font-weight: bolder;
+  font-size: 25px;
+  font-family: algerian;
+  color:red;
+  border:2px solid black;
+  border-radius: 5px;
+}
+
+nav {
+	position: absolute;
+} 
+.navbar {
+  background:transparent;	
+}

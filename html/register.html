@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registration page</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+
+<body>
+
+<form action="../html/sign.html" class="m-4">
+	<h1 class="form-group m-4 text-light"> Registration Form</h1>
+  <div class="form-group row mb-2">
+    <label for="First_name" class="col-sm-2 col-form-label text-primary">First Name</label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control text-success" id="First_name" placeholder="First Name">
+    </div>
+  </div>
+  <div class="form-group row  mb-2">
+    <label for="Last_name" class="col-sm-2 col-form-label text-primary">Last Name</label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control text-success" id="Last_name" placeholder="Last Name">
+    </div>  
+  </div>
+
+   <div class="form-group row  mb-2">
+    <label for="idemail" class="col-sm-2 col-form-label text-primary">Email</label>
+    <div class="col-sm-4">
+      <input type="email" class="form-control text-success" id="idemail" placeholder="Email">
+    </div>  
+  </div>
+
+   <div class="form-group row mb-2">
+    <label for="id_password" class="col-sm-2 col-form-label text-primary">Password</label>
+    <div class="col-sm-4">
+      <input type="password" class="form-control text-success" id="id_password" placeholder="Password">
+    </div>  
+  </div>
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0 text-primary">Select Gender</legend>
+      <div class="col-sm-4">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label text-primary" for="gridRadios1">
+            Male
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input text-success" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label text-primary" for="gridRadios2">
+            Female
+          </label>
+        </div>
+        <div class="form-check"> 
+          <input class="form-check-input text-primary" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+          <label class="form-check-label text-primary" for="gridRadios3">
+            Other
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+    <div class="form-group row">
+    <div class="col-sm-4">
+      <button type="submit" class="btn btn-danger ml-8 text-primary">Sign Up</button>  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<a href="../html/sign.html" class="text-primary"> If already registered Login here....</a>
+    </div>
+  </div>
+</form>
+</body>
+</html>
